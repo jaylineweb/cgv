@@ -14,8 +14,8 @@ header nav ul li a{color:white;text-decoration:none;}
 header .btn-outline-success:hover{#ffffff;}
 header .search-bar input{padding:0.5em;}
 header .auth-buttons{font-size:0;}
-header .auth-buttons button{margin-left:1em;padding:.375rem .75rem;background-color:#f60;border:none;color:white;cursor:pointer;}
-
+header .auth-buttons button{margin-left:1em;padding:.375rem .75rem;background-color:rgb(251, 67, 87);border:none;color:white;cursor:pointer;}
+header .auth-buttons button:hover{border-color:rgb(251, 67, 87);background-color:#fff;color:rgb(251, 67, 87);}
 header .auth-buttons img{color:#fff;vertical-align:middle;filter:invert(1);}
 header .auth-buttons button{}
 header .auth-buttons button span{margin-left:0.5em;font-size:16px;vertical-align:middle;}
