@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV Movie Page</title>
+    <link rel="stylesheet" href="./cgv/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CGV</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Theaters</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Membership</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search movies...">
+        </div>
+        <div class="auth-buttons">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h2>Latest Movies</h2>
+                <p>Check out the latest movies and events</p>
+            </div>
+        </section>
+        <section class="movies">
+            <h2>Now Showing</h2>
+            <div class="movie-list" id="now-showing">
+                <!-- Movie items will be injected here by JavaScript -->
+            </div>
+            <h2>Coming Soon</h2>
+            <div class="movie-list" id="coming-soon">
+                <!-- Movie items will be injected here by JavaScript -->
+            </div>
+        </section>
+        <section class="reviews">
+            <h2>Reviews</h2>
+            <div class="review-list" id="review-list">
+                <!-- Review items will be injected here by JavaScript -->
+            </div>
+            <div class="review-form">
+                <h3>Write a Review</h3>
+                <form id="review-form">
+                    <input type="text" id="reviewer-name" placeholder="Your name" required>
+                    <textarea id="review-text" placeholder="Write your review here..." required></textarea>
+                    <button type="submit">Submit Review</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 CGV. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Customer Center</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./cgv/js/scripts.js"></script>
+</body>
+</html>
